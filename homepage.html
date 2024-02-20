@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Tile Plus Stock - Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/Style.css">
+  </head>
+  <body id="homepageBody">
+    <div class="container">
+      <div class="homepageHeader">
+        <img class="homepageHeaderImage" src="Images/tp_logo_200x.avif">
+        <div class="searchContainer">
+          <input class="searchbar" id="input-box" placeholder="Search" type="text">
+            <div class="resultsBox">
+              
+            </div>
+          </div>
+        <div class="logoutContainer">
+          <button class="logoutButton" onclick="Logout()">
+            <img class="logoutImage" src="Images/logout.png">
+            Log Out
+          </div>
+        </div>
+        </div>
+      </div>
+        <div class="memberInfo">
+          <img class="memberImage" src="Images/user.png">
+          <div id="userInfo"></div>
+        </div>
+
+        <div class="stock-history-container">
+          <div class="stock-history">
+          </div>
+        </div>
+
+
+
+
+
+
+
+    <script src="Scripts/Homepage.js"></script>
+    <script src="Scripts/StockHistory.js"></script>
+    <script src="Scripts/Autocomplete.js"></script>
+  </body>
+</html>

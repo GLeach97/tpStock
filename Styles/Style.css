@@ -1,0 +1,267 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+body#loginBody{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/loginBackground.JPG) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+div.loginHeader{
+  text-align: center;
+}
+
+.headerImage{
+  width: 300px;
+}
+div.loginHeader h3{
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+div.loginBody form{
+  text-align: center;
+  margin:0px auto;
+  width: 400px;
+  background: rgba(0,0,0,0.5);
+  padding: 30px;
+  border: 2px white solid;
+  border-radius: 5px;
+}
+
+div.loginInputsContainer label{
+  display:block;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: white;
+  margin:7px 0px;
+}
+
+div.loginInputsContainer input{
+  height: 30px;
+  width: 80%;
+  border: 2px solid rgb(255, 123, 0);
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+div.loginInputsContainer input:focus{
+  border: 2px solid rgb(255, 123, 0);
+  outline-style: none;
+}
+
+.loginInputsContainer ::placeholder{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  text-align: start;
+}
+
+
+
+
+button.loginButton{
+  width: 30%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(38, 2, 170);
+  margin-top: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  border: none;
+  font-weight: 300;
+  transition: 0.15s;
+}
+
+.loginButton:hover{
+  background-color: rgb(255, 140, 0);
+}
+
+.loginButton:active{
+  background-color: rgb(255, 115, 0);
+}
+
+body#homepageBody{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/loginBackground.JPG) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+div.memberInfo{
+  color: white;
+  padding-left: 12px;
+  position: fixed;
+  top: 50px;
+  display: flex;
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+}
+
+.memberImage{
+  height: 35px;
+  margin-right: 10px;
+}
+
+.homepageHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 5px 15px;
+}
+
+
+.searchContainer{
+  column-gap: 0;
+  flex: 1;
+  max-width: 500px;
+  margin: 0px 20px;
+}
+
+.searchbar{
+  flex: 1;
+  box-sizing: border-box;
+  padding-left: 10px;
+  background-color:white;
+  color: rgb(0, 0, 0);
+  min-width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px rgb(255, 140, 0) solid;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+}
+
+.searchbar:focus{
+  outline: none;
+}
+
+.searchbar::placeholder{
+  color: rgb(126, 126, 126);
+}
+.logoutImage{
+  height: 30px;
+}
+
+.logoutContainer button{
+  background: none;
+  border: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: "Poppins",sans-serif;
+  color: white;
+}
+
+.logoutContainer button:hover{
+  cursor: pointer;
+}
+
+.resultsBox{
+  background-color: white;
+  margin: 0px;
+  border-radius: 5px;
+}
+.resultsBox ul{
+  margin: 0;
+  padding: 15px 10px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: scroll;
+  
+}
+
+.resultsBox ul li{
+  list-style: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.resultsBox ul li:hover{
+  background-color: rgba(255, 140, 0, 0.5);
+}
+
+body#productPageBody{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/loginBackground.JPG) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.product-container{
+  margin-top: 15vh;
+  text-align: center;
+  justify-content: center;
+}
+
+.product-title{
+  color: white;
+  font-size: 30px;
+}
+
+.stock-level{
+  color: white;
+  font-size: 24px;
+}
+
+.meter-input{
+  height: 30px;
+  width: 20%;
+  border-radius: 5px;
+  border: orange 2px solid;
+  outline: none;
+}
+
+.sell-button,
+.restock-button{
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.15s;
+}
+
+.sell-button:hover{
+  background-color: rgba(0,200,0,1);
+}
+
+.restock-button:hover{
+  background-color: red;
+}
+
+
+.stock-history-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 300px;
+  max-height: 300px;
+  width:100%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: scroll;
+}
+
+.stock-history{
+  color:rgb(255, 255, 255);
+  font-family: "Poppins",sans-serif;
+}
+
+.restockSpan{
+  color: red;
+  font-weight: bold;
+}
+
+.soldSpan{
+  color: rgb(13, 255, 0);
+  font-weight: bold;
+}
