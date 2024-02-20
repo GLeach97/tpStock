@@ -221,10 +221,11 @@ body#productPageBody{
 
 .sell-button,
 .restock-button{
+  background-color: rgb(38, 2, 170);
   height: 36px;
   width: 100px;
   border-radius: 5px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 500;
   font-size: 16px;
   transition: 0.15s;
