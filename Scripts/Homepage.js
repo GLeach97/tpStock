@@ -15,7 +15,7 @@ function checkLoggedInUser() {
       displayUserInfo(user.username);
   } else {
       // Redirect to login page if no user is logged in
-      window.location.href = 'login.html'; // Replace with your actual login page URL
+      window.location.href = 'index.html'; // Replace with your actual login page URL
   }
 }
 
@@ -30,6 +30,6 @@ function Logout() {
   localStorage.removeItem('loggedInUser');
 
   // Use the replaceState method to replace the current history entry
-  window.history.replaceState(null, null, 'login.html');
-  window.location.href = 'login.html'; 
+  window.history.replaceState(null, null, 'index.html');
+  window.location.href = 'index.html'; 
 }
